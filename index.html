@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="main-container">
+        <div id="envelope-page">
+    <div id="envelope">
+        <div class="flap"></div>
+        <div class="letter">❤️</div>
+        <div class="pocket-left"></div>
+        <div class="pocket-right"></div>
+        <div class="pocket-bottom"></div>
+    </div>
+    
+    <div class="button-container">
+        <button id="open-btn">OPEN</button>
+        <button id="reset-btn" onclick="location.reload()">RESET</button>
+    </div>
+</div>
+
+        <div id="scratch-page" class="hidden">
+    <div class="scratch-card">
+        <div class="card-inner">
+            <div class="text-content">
+                <h1 class="bubbly-title">Happy Valentine's Day!✨</h1>
+                <p class="valentine-msg"><br>Happy Valentine's Day to an amazing friend! Thank you for all the laughter, support, and beautiful memories we've shared. Our friendship is one of the most cherished parts of my life. Wishing you a day filled with joy, sweetness, and the knowledge of how truly special you are.</p>
+                <p class="signature"><br>Love, Vannrothh</p>
+                <p class="valentine-msg">SCRATCH TO<br>REVEAL✨</p>
+            </div>
+            <div class="canvas-wrapper">
+                <img src="valentineforfriend.jpg" id="photo">
+                <canvas id="scratch-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
